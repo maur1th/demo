@@ -3,7 +3,7 @@ region	            = "eu-west-1"
 frontend_name	    = "demo"
 
 web_instance_type	= "t2.micro"
-key_name	        = "aws-dev"
+key_name	        = "id_rsa"
 properties          = "environment:Integration,version:Grey"
 
 health_check_path	= "/index.php"

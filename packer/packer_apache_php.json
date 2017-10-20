@@ -1,5 +1,7 @@
 {
     "variables": {
+        "aws_access_key": "{{env `AWS_ACCESS_KEY_ID`}}",
+        "aws_secret_key": "{{env `AWS_SECRET_ACCESS_KEY`}}",
         "region"        : "eu-west-1",
         "source_ami"    : null,
         "build_subnet"  : null,
@@ -12,6 +14,8 @@
         "site_dir"    : null
     },
     "builders": [{
+        "access_key": "{{user `aws_access_key`}}",
+        "secret_key": "{{user `aws_secret_key`}}",
         "type": "amazon-ebs",
         "force_deregister" : "true",
         "region": "{{user `region`}}",

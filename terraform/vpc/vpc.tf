@@ -1,6 +1,6 @@
 terraform {
     backend "s3" {
-        bucket = "tfstates"
+        bucket = "maurin-d2si"
         key    = "demo/vpc"
         region = "eu-west-1"
     }

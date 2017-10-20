@@ -1,5 +1,4 @@
-#!/bin/bash
-set -e
+#!/bin/bash -ex
 
 BUILD_DIR=$1
 PACKER_VARS=$2

@@ -1,6 +1,4 @@
-#!/bin/bash
-set -x
-set -e
+#!/bin/bash -ex
 
 PACKER_DL=${TOOLS_DIR}/packer-${PACKER_VERSION}
 

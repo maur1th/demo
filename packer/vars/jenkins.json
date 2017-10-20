@@ -5,6 +5,6 @@
     "build_subnet": "subnet-636de438",
     "build_sg": "sg-d39463a8",
     "ssh_private"   : "true",
-    "public_ip"     : "false",
+    "public_ip"     : "true",
     "project" : "demojk"
 }

@@ -6,3 +6,4 @@ environment/localdev/application.properties
 terraform.tfstate
 terraform.tfstate.backup
 selec
+**.terraform**
